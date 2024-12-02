@@ -107,7 +107,7 @@ const AddToCartCard = (props: any) => {
 
       <View style={styles.buttonContainer}>
         <Button
-          style={{backgroundColor: 'primary'}}
+          style={{backgroundColor: 'purple'}}
           disabled={shouldDisable}
           mode="contained"
           onPress={handleAddToCartClick}>

@@ -73,12 +73,6 @@ const SubProductList = ({navigation}: {navigation: any}) => {
           onPress={() => navigation.navigate('cart')}>
           Checkout
         </Button>
-        <Button
-          onPress={() => navigation.navigate('home')}
-          style={styles.button}
-          mode="outlined">
-          Add more items
-        </Button>
       </View>
     </Layout>
   );
@@ -132,7 +126,7 @@ const styles = StyleSheet.create({
   button: {
     justifyContent: 'space-between',
     marginBottom: 20,
-    color: 'primary',
+    color: 'purple',
   },
 });
 

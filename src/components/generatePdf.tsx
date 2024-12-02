@@ -69,7 +69,7 @@ function GeneratePDF() {
   </head>
   <body>
     <header>
-    <div><img  alt="Company Logo"></div>
+    <div><img src="https://imgs.search.brave.com/5-Z9EXmHZ88cesnv9dPacOdU7FNG-66hkhVgTVh-yro/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMtd2l4bXAtZWQz/MGE4NmI4YzRjYTg4/Nzc3MzU5NGMyLndp/eG1wLmNvbS9pLzk1/OTY1MTkxLWZkOWIt/NDNiZC1iMzJhLTFh/MDBlNTViMGUwMi9k/MnBnczZhLTgwMDZi/ZjI2LTJmMTEtNDE1/OC1iOWExLWQwMjQ2/ODhiODQzMy5qcGc"  alt="Company Logo"></div>
       <h1>Invoice for Order #${currentOrder.id.substring(0, 6)}</h1>
     </header>
     <h1>Order Summary</h1>
